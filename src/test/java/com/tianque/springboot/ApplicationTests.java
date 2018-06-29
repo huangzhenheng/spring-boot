@@ -7,10 +7,10 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.tianque.entity.MyProperties;
-import com.tianque.entity.TestConfig;
-import com.tianque.mapper.UserMapper;
-import com.tianque.service.UserService;
+import com.hzh.entity.MyProperties;
+import com.hzh.entity.TestConfig;
+import com.hzh.mapper.UserMapper;
+import com.hzh.service.UserService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
