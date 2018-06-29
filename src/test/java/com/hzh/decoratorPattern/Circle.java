@@ -1,4 +1,4 @@
-package com.tianque.decoratorPattern;
+package com.hzh.decoratorPattern;
 
 public class Circle implements Shape {
 

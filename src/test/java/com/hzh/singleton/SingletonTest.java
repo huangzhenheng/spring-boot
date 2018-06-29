@@ -1,4 +1,4 @@
-package com.tianque.singleton;
+package com.hzh.singleton;
 
 public class SingletonTest {
 

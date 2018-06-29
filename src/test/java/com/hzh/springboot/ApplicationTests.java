@@ -1,4 +1,4 @@
-package com.tianque.springboot;
+package com.hzh.springboot;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

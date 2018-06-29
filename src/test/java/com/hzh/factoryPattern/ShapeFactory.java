@@ -1,8 +1,8 @@
-package com.tianque.factoryPattern;
+package com.hzh.factoryPattern;
 
-import com.tianque.factoryPattern.impl.Circle;
-import com.tianque.factoryPattern.impl.Rectangle;
-import com.tianque.factoryPattern.impl.Square;
+import com.hzh.factoryPattern.impl.Circle;
+import com.hzh.factoryPattern.impl.Rectangle;
+import com.hzh.factoryPattern.impl.Square;
 
 public class ShapeFactory {
 	// 使用 getShape 方法获取形状类型的对象

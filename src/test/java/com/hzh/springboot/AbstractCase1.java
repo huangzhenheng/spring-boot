@@ -1,4 +1,4 @@
-package com.tianque.springboot;
+package com.hzh.springboot;
 
 public abstract class AbstractCase1 implements MyInterface {
 

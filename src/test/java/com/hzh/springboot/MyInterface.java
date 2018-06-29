@@ -1,4 +1,4 @@
-package com.tianque.springboot;
+package com.hzh.springboot;
 
 public interface MyInterface {
 	static final String DDNAME = "TOM";

@@ -1,4 +1,4 @@
-package com.tianque.decoratorPattern;
+package com.hzh.decoratorPattern;
 
 public abstract class ShapeDecorator implements Shape {
 	protected Shape decoratedShape;

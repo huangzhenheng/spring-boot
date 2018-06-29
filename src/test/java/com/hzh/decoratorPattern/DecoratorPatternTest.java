@@ -1,4 +1,4 @@
-package com.tianque.decoratorPattern;
+package com.hzh.decoratorPattern;
 
 public class DecoratorPatternTest {
 	public static void main(String[] args) {

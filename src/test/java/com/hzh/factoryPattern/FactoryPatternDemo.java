@@ -1,7 +1,7 @@
-package com.tianque.factoryPattern;
+package com.hzh.factoryPattern;
 
-import com.tianque.factoryPattern.impl.Rectangle;
-import com.tianque.factoryPattern.impl.Square;
+import com.hzh.factoryPattern.impl.Rectangle;
+import com.hzh.factoryPattern.impl.Square;
 
 public class FactoryPatternDemo {
 	public static void main(String[] args) {

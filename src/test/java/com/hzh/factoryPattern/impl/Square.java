@@ -1,6 +1,6 @@
-package com.tianque.factoryPattern.impl;
+package com.hzh.factoryPattern.impl;
 
-import com.tianque.factoryPattern.Shape;
+import com.hzh.factoryPattern.Shape;
 
 public class Square implements Shape {
 

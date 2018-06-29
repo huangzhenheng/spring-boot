@@ -1,4 +1,4 @@
-package com.tianque.builderPattern;
+package com.hzh.builderPattern;
 
 public interface Item {
 	public String name();
