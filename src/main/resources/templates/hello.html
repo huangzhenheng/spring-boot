@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Title</title>
+</head>
+<body>
+    <!-- 获取值 -->
+	<h1 th:text="${name}">Hello,Spring Boot</h1>
+	<h1 th:text="${user.name}"></h1>
+	<!-- 静态资源 -->
+	<img th:src="@{'/image/app.ico'}" src="../static/image/app.ico">
+	
+	<!-- 条件判断 --> 
+	<h1 th:if="${user.name == 'Rose'}">Hello,Rose</h1>
+	<h1 th:unless="${user.name == 'Jack'}">Hello,Jack</h1>
+	<ul th:switch="${user.name}">
+		<li th:case="'Rose'">Rose</li>
+		<li th:case="'Jack'">Jack</li>
+		<li th:case="*">other</li>
+	</ul>
+	
+	
+<!-- 	循环 -->
+	<ul>
+		<li th:each="name : ${userList}" th:text="${name.name}"></li>
+	</ul>
+<!-- 	<ul> -->
+<!-- 	<li th:each="user,iterStat : ${userList}" th:text="${iterStat.count + ' ' +user.name}" -->
+<!-- 		th:class="${iterStat.odd ? 'odd' : 'even'}"></li> -->
+<!-- 	</ul> -->
+</body>
+</html>
